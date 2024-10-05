@@ -1,0 +1,9 @@
+def palindrome(string):
+    return string==string[::-1]
+words = ["abc","car","ada","racecar","cool"]
+yo=""
+for i in words:
+    if(palindrome(i)):
+        yo=i
+        break
+print(yo)
