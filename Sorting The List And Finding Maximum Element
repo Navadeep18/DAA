@@ -1,0 +1,6 @@
+hell=[2,1,6,4,9]
+hi=sorted(hell)
+if(len(hell)==0):
+    print("It is an empty list")
+else:
+    print(max(hi))
