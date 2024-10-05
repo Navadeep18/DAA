@@ -1,0 +1,10 @@
+n1=[2,3,2]
+n2=[1,2]
+count=[0,0]
+for i in n1:
+    if(i in n2):
+        count[0]+=1
+for i in n2:
+    if(i in n1):
+        count[1]+=1
+print(count)
